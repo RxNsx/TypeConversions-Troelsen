@@ -28,7 +28,9 @@ namespace TypeConversions
 
 			//ProcessBytes(); Проверка и обнаружение переполнения типа данных short byte int long decimal
 
-			DeclareImplicitVars();
+			//DeclareImplicitVars();
+
+			IterationCyclesPractice();
 
 		}
 		
@@ -67,7 +69,7 @@ namespace TypeConversions
 	
 
 			
-		}
+		}//checked unchecked проверка для суживающих преобразований данных и предотвращения или сокрытия переполнения переменной
 
 		static void DeclareImplicitVars() //Использование неявно типизированных переменных
 		{
@@ -107,6 +109,23 @@ namespace TypeConversions
 
 
 
+
+
+
+		}
+
+		static void IterationCyclesPractice()
+		{
+
+			//4 вида циклов
+			/*
+			 * for
+			 * foreach/in
+			 * while
+			 * do/while
+			*/
+
+			//Когда требуется повторять блок кода определенное количество раз, заранее известное, лучшим вариантом будет цикл FOR
 
 
 
